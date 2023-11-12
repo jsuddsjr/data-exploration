@@ -79,6 +79,8 @@ Here's a list of websites that I found helpful in this project.
 
 * [Jypter Notebooks in VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
 * [Setting Up Run by Line and Debugging for Notebooks](https://github.com/microsoft/vscode-jupyter/wiki/Setting-Up-Run-by-Line-and-Debugging-for-Notebooks)
+* [ZHVI User Guide](https://www.zillow.com/research/zhvi-user-guide/)
+* [Zillow Home Value Index Methodology, 2023 Revision: What's Changed?](https://www.zillow.com/research/methodology-neural-zhvi-32128/)
 
 ## Future Work
 
