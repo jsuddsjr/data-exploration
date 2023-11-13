@@ -18,9 +18,12 @@ For this project, I am using data provided by Zillow in their free
 (by zip code and home size) from January 2000 onwards. I will also be using the standard libraries for data analysis in
 Python: **pandas** and **matplotlib**.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/sA-6m31iCD8)
 
 ## Data Analysis Results
+
+These are the questions I was able to answer during my investigation. See the Jupyter Notebooks for details on how they
+were calculated.
 
 ### **Question**: Which state shows the highest mean (average) price? **Answer**: Hawaii
 
@@ -48,7 +51,7 @@ So far, we've been looking at differences in terms of real numbers. But when com
 it's better to use percentages. Now that we can compare states more equitably, in terms of percentage gain, we find that
 **Hawaii** no longer leads the pack.
 
-### *Question**: Who is the clear winner of the pandemic migration and housing boom? **Answer**: No one
+### **Question**: Who is the clear winner of the pandemic migration and housing boom? **Answer**: No one
 
 ![Alt text](attachments/top_20_real_estate_bubble_2021.png)
 
