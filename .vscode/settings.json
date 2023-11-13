@@ -1,16 +1,25 @@
 {
     "cSpell.words": [
+        "colname",
+        "dfds",
+        "dtformat",
         "edgecolor",
         "figsize",
         "fontsize",
         "iloc",
+        "ipykernel",
+        "isin",
         "kwargs",
+        "Lamesa",
         "matplotlib",
+        "Micropolitan",
         "nlargest",
         "nsmallest",
         "pcts",
         "pyplot",
         "startswith",
-        "yaxis"
+        "timedelta",
+        "yaxis",
+        "ZHVI"
     ]
 }

@@ -16,10 +16,7 @@ Here are some questions that I’d like to answer:
 For this project, I am using data provided by Zillow in their free
 [Zillow Home Value Index (ZHVI)](https://www.zillow.com/research/data/) dataset, which contains home prices in the US
 (by zip code and home size) from January 2000 onwards. I will also be using the standard libraries for data analysis in
-Python: **pandas**, **matplotlib**, and others.
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the data set, the questions and
-answers, the code running and a walkthrough of the code.}
+Python: **pandas** and **matplotlib**.
 
 [Software Demo Video](http://youtube.link.goes.here)
 
@@ -53,7 +50,7 @@ activate .\.conda
 Since the environment is unnamed, installing packages into this environment requires you to specify its prefix, like so:
 
 ```powershell
-conda install -p .\.conda\ pandas numpy
+conda install -p .\.conda\ pandas requests
 ```
 
 If you would rather create the environment manually, you can use the `requirements.txt` at the command line.
@@ -71,21 +68,22 @@ conda list --export > requirements.txt
 ## ipykernel
 
 The Run by Line and Debugging features for Python notebooks requires ipykernel v6.0.0 or greater to be installed in the
-notebook's kernel.
+notebook's kernel. If you attempt to run the notebook without it, VS Code will prompt you to install it.
 
 ## Useful Websites
 
 Here's a list of websites that I found helpful in this project.
 
-* [Jypter Notebooks in VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
+* [Jupyter Notebooks in VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
 * [Setting Up Run by Line and Debugging for Notebooks](https://github.com/microsoft/vscode-jupyter/wiki/Setting-Up-Run-by-Line-and-Debugging-for-Notebooks)
 * [ZHVI User Guide](https://www.zillow.com/research/zhvi-user-guide/)
 * [Zillow Home Value Index Methodology, 2023 Revision: What's Changed?](https://www.zillow.com/research/methodology-neural-zhvi-32128/)
 
 ## Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
+Here's a  list of things that I would improve and add in the future.
 
-* Item 1
-* Item 2
-* Item 3
+* **Animation**. Build a data animation of yearly gains and losses.
+* **Map it**. Display the data on a map of the U.S.
+* **Merge datasets**. Combine with data from the Census or other government agencies.
+* **Highlight events**. Highlight events on the timeline to give further data context.
