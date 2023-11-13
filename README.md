@@ -34,6 +34,7 @@ came to my conclusions through a series of steps.
 * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 * [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
 * [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+* [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
 > To work with Python in Jupyter Notebooks, you must activate an Anaconda environment in VS Code. To select an
 environment, use the **Python: Select Interpreter** command from the **Command Palette (Ctrl+Shift+P)**. Once the
