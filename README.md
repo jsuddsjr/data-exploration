@@ -22,7 +22,39 @@ Python: **pandas** and **matplotlib**.
 
 ## Data Analysis Results
 
-{List the questions and the answers you found by doing this analysis.}
+### **Question**: Which state shows the highest mean (average) price? **Answer**: Hawaii
+
+![Screen showing descriptive stats sorted by mean, descending.](attachments/describe_and_sort.png)
+
+Does this mean (pun intended) that Hawaii is the clear front-runner for home prices? **Not at all.** The mean is a terrible
+metric all by itself. For one thing, we have no idea how many house prices fall far above or far below this value. For
+that, we need to consider the Standard Deviation, which describes the spread of the data.
+
+### **Question**. Is Hawaii the most expensive place to live? **Answer**: Not necessarily
+
+![A candlestick graph, showing Hawaii with a narrow spread around a high median price.](attachments/candlestick_graph.png)
+
+From this graph, we can see that the spread of house prices in Hawaii is more uniform than other states, but **Massachusets**,
+**California**, and **Wyoming** all have higher maximums. It still doesn't feel like we've got a clear picture.
+
+**NOTE** Keep in mind that we are not actually comparing all home prices in a state. We are only comparing differences between
+MSA regions. For example, **Rhode Island** only has one MSA region, and therefore has no spread at all.
+
+### **Question**: Which state saw the largest percentage gain in home prices through the pandemic? **Answer**: Florida
+
+![Top 10 Percentage gains by end of 2023, with Florida at top.](attachments/largest_yoy_gains_2020_2022.png)
+
+So far, we've been looking at differences in terms of real numbers. But when comparing a large economy to a smaller one,
+it's better to use percentages. Now that we can compare states more equitably, in terms of percentage gain, we find that
+**Hawaii** no longer leads the pack.
+
+### *Question**: Who is the clear winner of the pandemic migration and housing boom? **Answer**: No one
+
+![Alt text](attachments/top_20_real_estate_bubble_2021.png)
+
+To satisfy my own curiosity, I wanted to see if these pandemic gains carried through into 2023. If accurate, the
+following chart represents the largest real estate bubble the U.S. has ever seen. It also indicates that nearly all
+of the gains vanished by 2023.
 
 ## Development Environment
 
